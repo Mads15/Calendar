@@ -1,27 +1,30 @@
 body {
   background-color: rgb(40,43,48);
- }
+}
 
- h1 {
-   color: rgba(255, 255, 255, 0.6);
- }
- 
- h2 {
-   color: rgb(255, 153, 0);
-   text-align: center;
- }
- 
- p {
-   color: rgba(255, 255, 255, 0.5);
- }
+h1 {
+  color: rgb(255, 153, 0);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
 
- table {
+img {
+  width: 100%;
+}
+
+table {
   background: white;
   color: black;
   width: 100%;
 }
 
-th, td { 
+th { 
   font-weight: bold;
   text-align: left;
+}
+
+td { 
+  text-align: left;
+  line-height: 30px;
 }
