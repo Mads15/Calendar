@@ -4,7 +4,6 @@ html,body {
 }
 
 body {
-  margin: 0;
   display: flex;
   flex-direction: column;
 }
@@ -13,6 +12,7 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
+  padding-left: 1%;
 }
 
 img {
@@ -48,10 +48,8 @@ td {
   color: red;
 }
 
-div[contenteditable="plaintext-only"] {
-  font-weight: lighter;
-  height: 100%;
-  overflow: auto;
+input {
+  width: 100%;
   box-sizing: border-box;
-  white-space: pre-wrap;
+  word-wrap: break-word;
 }
