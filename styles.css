@@ -71,4 +71,12 @@ h1 {
   color: orange;
   font-size: 40px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+textarea {
+  box-sizing: border-box;
+  height: 100px;
+  width: 14%;
+  resize: none;
 }
