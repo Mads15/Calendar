@@ -17,7 +17,6 @@ main {
 
 img {
   width: 100%;
-  max-height: 100%;
   object-fit: contain;
 }
 
@@ -41,8 +40,7 @@ td {
   vertical-align: top;
   padding: 0;
   margin: 0;
-  white-space: nowrap; /* Prevent text from wrapping to the next line */
-  overflow: hidden;   /* Hide any content exceeding the cell width */
+  min-height: 40px;
 }
 
 .helligdag {
@@ -52,4 +50,25 @@ td {
 input {
   width: 100%;
   box-sizing: border-box;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  color: orange;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
